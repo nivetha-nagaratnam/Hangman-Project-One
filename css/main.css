@@ -1,0 +1,131 @@
+body    {
+    background-image: url('../images/background.png');
+    background-repeat: repeat;
+    background-size: contain;
+    color: black;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-weight: normal;
+}
+
+h1  {
+    font-family: 'Mountains of Christmas', cursive;
+    text-align: center;
+    font-size: 60px;
+}
+
+#theme  {
+    text-align: center;
+    font-size: 20px;
+}
+
+#first-word, #third-word    {
+    color:green;
+}
+
+#second-word    {
+    color:red;
+}
+
+button  {
+    color:white;
+    background-color: red;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+button:hover    {
+    background-color: white;
+    color: green;
+}
+
+
+#right-side-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 10%;
+    margin-top: 1%;
+    margin-right: 3%;
+    position: absolute;
+    top: 22%;
+    right: 0;
+}
+
+#output-image   {
+    display: block;
+    margin-left: 30%;
+    margin-right: auto;
+    width: auto;
+    height: 450px;  
+}
+
+#reset, #hint  {
+    border-radius: 25%;
+}
+
+#shrek, #gingerbread, #hansel   {
+    border-radius: 25%;
+}
+
+ #buttons1  {
+    margin-top: 36%;
+    margin-right: 3%;
+    position: absolute;
+    top: 10%;
+    right: 0;
+    padding: 20px;
+    height: 300px;
+}
+
+#buttons2   {
+    margin-top: 38%;
+    margin-right: 3%;
+    position: absolute;
+    top: 10%;
+    right: 0;
+    padding: 20px;
+} 
+
+#buttons3   { 
+    margin-top: 40%;
+    margin-right: 3%;
+    position: absolute;
+    top: 10%;
+    right: 0;
+    padding: 20px; 
+}
+
+#blanks {
+    position:absolute;
+    bottom:0;
+    right:0;
+    margin-right: 40%;
+    font-size: 40px;
+    color:green;
+}
+
+#music-image    {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50px;
+}
+
+#music-stop-image   {
+    position: absolute;
+    top: 1.6%;
+    left: 3.5%;
+    height: 20px;
+}
+
+#score-keeping  {
+    position:absolute;
+    bottom:1%;
+    border-radius: 30%;
+}
+
+#winner-image   {
+position:absolute;
+bottom:20%;
+left: 20%;
+}

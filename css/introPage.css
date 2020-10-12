@@ -1,0 +1,70 @@
+body    {
+    background-image: url('../images/background.png');
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+h1  {
+    font-family: 'Mountains of Christmas', cursive;
+    text-align: center;
+    font-size: 80px;
+    margin-top: 60px;
+}
+
+video   {
+    margin-left: auto;
+    margin-top: 4%;
+    margin-right: auto;
+    display: block;
+    border-radius: 10%;
+}
+
+div  {
+    color:black;
+    display: block;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+}
+
+div:hover   {
+    background-color: transparent;
+    color: black;
+}
+
+
+#button {
+    position: fixed;
+    left: 755px;
+    top: 712px;
+}
+
+#candy-image {
+    height:118px;
+    width: 180px;
+    display: block;
+    margin-left: auto;
+    margin-right: 42%;
+    margin-top: 0.4px;   
+}
+
+#first-word,#third-word {
+    color: green;
+}
+
+#second-word{
+    color: red;
+}
+
+a   {
+    color: transparent;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+

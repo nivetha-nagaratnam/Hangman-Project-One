@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gingy's Christmas Journey</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&display=swap" rel="stylesheet">
+    <script defer src="js/main.js"></script>
+
+
+</head>
+<body>
+    <h1
+        ><span id =' first-word'>Gingy's</span>
+        <span id = 'second-word'>Christmas</span>
+        <span id = 'third-word'>Journey</span>
+    </h1>
+    <h2 id = 'blanks'></h2>
+    <p id = 'letters-matched'></p>
+
+    <nav id = 'score-keeping'>
+        <div id = 'win'></div>
+        <div id = 'lose'></div>
+        <div id = 'wrong-guesses'></div>
+        <div id = 'chances-left'></div>
+    </nav>
+
+    <div class = 'bottom-buttons'>
+        <button id = 'reset'>Play Again</button>
+    </div>
+
+    <div class = 'left-side-button'>
+        <button id = 'hint'>Hint</button>
+    </div>
+
+    <div id = 'right-side-buttons'>
+        <p id = 'theme'>Choose A Theme</p>
+        <button id = 'shrek'>Shrek</button>
+        <button id = 'gingerbread'>Gingerbread Man</button>
+        <button id= 'hansel'>Hansel & Gretel</button>
+    </div>
+
+    <div id = 'all-letter-buttons'>
+        <div id = 'buttons1'>
+        </div>  
+        <div id = 'buttons2'>
+        </div>  
+        <div id = 'buttons3'>
+    </div>
+
+    <div class = 'images'>
+        <img id = 'output-image'>
+        <img id = 'winner-image'>
+        <img id = 'music-image' src='images/music.png'>
+        <img id = 'music-stop-image' src='images/stop.png'>
+
+    </div> 
+    
+    <audio id = 'audio' loop >
+        <source src = 'audio/music.mov' loop>
+    </audio>
+
+    <audio id = 'win-sound'>
+        <source src = 'audio/WinningSound.mp3' >
+    </audio>
+
+    <audio id = 'lose-sound'>
+        <source src = 'audio/LosingSound.wav' >
+    </audio>
+
+    <audio id = 'lives-lost-sound'>
+        <source src = 'audio/LivesLeft.wav' >
+    </audio>
+
+    <audio id = 'click-sound'>
+        <source src = 'audio/ClickingButton.wav' >
+    </audio>
+
+    <audio id = 'do-not-click-sound'>
+        <source src = 'audio/DontClick.mp3' >
+    </audio>
+
+</body>
+</html>
