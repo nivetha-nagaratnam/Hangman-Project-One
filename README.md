@@ -26,5 +26,5 @@ Technologies used were HTML, CSS, and JavaScript.
 
 ## **Next Steps** 
 
-Some next steps for this game would be adding animations. I would add animations to show when a player wins or loses. I would also try to animate the process of 
+Some next steps for this game would be adding animations and making a mobile version. I would add animations to show when a player wins or loses. I would also try to animate the process of 
 losing lives in the game. 
