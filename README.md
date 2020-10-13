@@ -2,7 +2,7 @@
 
 ## **Overview & Getting Started** 
 
-Gingy's Christmas Journey is a hangaman game that can be played by kids or adults. Gingy is a gingerbread man whose life is in danger and it's in your hands to save
+Gingy's Christmas Journey is a hangaman game that can be played by kids. Gingy is a gingerbread man whose life is in danger and it's in your hands to save
 him and recconect him with Santa. The instructions are simple. Choose a fairytale theme and try to guess the word. If guessed correctly, Gingy survives. If not, 
 sorry Gingy... You will be given one hint, so use it wisely. Good luck, click here to start the journey https://nivetha-nagaratnam.github.io/Hangman-Project-One/.
 
